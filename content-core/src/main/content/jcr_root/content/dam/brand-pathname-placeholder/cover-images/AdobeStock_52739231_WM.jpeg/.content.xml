@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b0f2a4e7-ab90-477c-8c4b-750fd88e29ae">
+    <jcr:content
+        dam:relativePath="brand/cover-images/AdobeStock_52739231_WM.jpeg"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2016-08-09T14:29:55.426+02:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}67"
+            dam:Physicalheightininches="{Decimal}9.95522403717041"
+            dam:Physicalwidthindpi="{Long}67"
+            dam:Physicalwidthininches="{Decimal}14.925373077392578"
+            dam:Progressive="no"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}667"
+            tiff:ImageWidth="{Long}1000"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="6000/89 (67.416)"
+            tiff:YCbCrPositioning="{Long}1"
+            tiff:YResolution="6000/89 (67.416)"
+            xmp:CreateDate="{Date}2013-05-27T00:00:00.000+02:00"
+            xmp:CreatorTool="Adobe Stock Platform"
+            xmp:MetadataDate="{Date}2016-07-21T10:53:11.000+02:00"
+            xmp:ModifyDate="{Date}2013-05-27T00:00:00.000+02:00"
+            xmpMM:DocumentID="52739231"
+            xmpMM:InstanceID="Adobe Stock 52739231"
+            xmpRights:Marked="{Boolean}true"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2016-07-21T10:57:07.154+02:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

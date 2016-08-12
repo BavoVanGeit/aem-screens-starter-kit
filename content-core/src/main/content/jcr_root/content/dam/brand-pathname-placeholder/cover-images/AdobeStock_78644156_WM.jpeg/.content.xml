@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f3f348c0-cb4e-46d2-be21-ccdb9d921522">
+    <jcr:content
+        cq:name="AdobeStock_78644156_WM.jpeg"
+        cq:parentPath="/content/dam/brand-pathname-placeholder/cover-images"
+        dam:relativePath="brand/cover-images/AdobeStock_78644156_WM.jpeg"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2016-08-09T14:29:56.922+02:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}60"
+            dam:Physicalheightininches="{Decimal}11.116666793823242"
+            dam:Physicalwidthindpi="{Long}60"
+            dam:Physicalwidthininches="{Decimal}16.66666603088379"
+            dam:Progressive="no"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2016-07-21T10:20:48.102+02:00"
+            jcr:lastModified="{Date}2016-07-21T10:20:48.101+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}667"
+            tiff:ImageWidth="{Long}1000"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="60"
+            tiff:YCbCrPositioning="{Long}1"
+            tiff:YResolution="60"
+            xmp:CreateDate="{Date}2015-02-23T00:00:00.000+01:00"
+            xmp:CreatorTool="Adobe Stock Platform"
+            xmp:MetadataDate="{Date}2016-07-19T11:04:59.000+02:00"
+            xmp:ModifyDate="{Date}2015-02-23T00:00:00.000+01:00"
+            xmpMM:DocumentID="78644156"
+            xmpMM:InstanceID="Adobe Stock 78644156"
+            xmpRights:Marked="{Boolean}true"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

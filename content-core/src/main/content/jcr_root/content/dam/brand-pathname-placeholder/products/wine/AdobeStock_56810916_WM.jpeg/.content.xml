@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="bdc876bf-af85-4156-af44-1bcb9be2724c">
+    <jcr:content
+        cq:name="AdobeStock_56810916_WM.jpeg"
+        cq:parentPath="/content/dam/brand-pathname-placeholder/products/wine"
+        dam:relativePath="brand/products/wine/AdobeStock_56810916_WM.jpeg"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2016-08-09T15:00:17.875+02:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/etc/commerce/products/brand-pathname-placeholder/collection1/white/white_wine"
+            dam:Bitsperpixel="{Long}24"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}67"
+            dam:Physicalheightininches="{Decimal}9.940298080444336"
+            dam:Physicalwidthindpi="{Long}67"
+            dam:Physicalwidthininches="{Decimal}14.925373077392578"
+            dam:productID="222222"
+            dam:Progressive="no"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2016-07-19T10:16:45.235+02:00"
+            jcr:lastModified="{Date}2016-08-09T15:00:17.798+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}666"
+            tiff:ImageWidth="{Long}1000"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="37500/557 (67.325)"
+            tiff:YCbCrPositioning="{Long}1"
+            tiff:YResolution="37500/557 (67.325)"
+            xmp:CreateDate="{Date}2013-10-03T00:00:00.000+02:00"
+            xmp:CreatorTool="Adobe Stock Platform"
+            xmp:MetadataDate="{Date}2016-07-19T10:11:47.000+02:00"
+            xmp:ModifyDate="{Date}2013-10-03T00:00:00.000+02:00"
+            xmpMM:DocumentID="56810916"
+            xmpMM:InstanceID="Adobe Stock 56810916"
+            xmpRights:Marked="{Boolean}true"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[unknown]">
+            <unknown
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2016-07-19T10:16:43.141+02:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="93f6acbf-009e-450f-b209-0af9ad080d16">
+    <jcr:content
+        cq:name="AdobeStock_75089860_WM.jpeg"
+        cq:parentPath="/content/dam/brand-pathname-placeholder/products/food"
+        dam:relativePath="brand/products/food/AdobeStock_75089860_WM.jpeg"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2016-08-09T15:05:56.108+02:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/etc/commerce/products/brand-pathname-placeholder/collection2/meat"
+            dam:Bitsperpixel="{Long}24"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}53"
+            dam:Physicalheightininches="{Decimal}12.584905624389648"
+            dam:Physicalwidthindpi="{Long}53"
+            dam:Physicalwidthininches="{Decimal}18.867923736572266"
+            dam:productID="444444"
+            dam:Progressive="no"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2016-08-09T15:05:56.015+02:00"
+            jcr:lastModified="{Date}2016-08-09T15:05:56.015+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}667"
+            tiff:ImageWidth="{Long}1000"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="6250/117 (53.419)"
+            tiff:YCbCrPositioning="{Long}1"
+            tiff:YResolution="6250/117 (53.419)"
+            xmp:CreateDate="{Date}2014-12-22T00:00:00.000+01:00"
+            xmp:CreatorTool="Adobe Stock Platform"
+            xmp:MetadataDate="{Date}2016-08-09T15:04:09.000+02:00"
+            xmp:ModifyDate="{Date}2014-12-22T00:00:00.000+01:00"
+            xmpMM:DocumentID="75089860"
+            xmpMM:InstanceID="Adobe Stock 75089860"
+            xmpRights:Marked="{Boolean}true"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[unknown]">
+            <unknown
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2016-08-09T15:05:47.938+02:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

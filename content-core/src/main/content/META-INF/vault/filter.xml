@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">  
+    <filter root="/apps/brand-pathname-placeholder"/>
+    <filter root="/content/screens/brand-pathname-placeholder"/>
+    <filter root="/content/dam/brand-pathname-placeholder"/>
+    <filter root="/content/catalogs/brand-pathname-placeholder"/>
+    <filter root="/etc/commerce/products/brand-pathname-placeholder"/>
+    <filter root="/etc/designs/brand-pathname-placeholder"/>
+    <filter root="/etc/scaffolding/brand-pathname-placeholder"/>
+</workspaceFilter>

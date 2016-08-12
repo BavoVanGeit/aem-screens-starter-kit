@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="/apps/brand-pathname-placeholder/templates/.*"
+        cq:cloudserviceconfigs="[[]]"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:designPath="/etc/designs/brand-pathname-placeholder"
+        cq:lastModified="{Date}2016-07-20T14:37:13.072+02:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-05-29T12:14:25.693-07:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:description="Page Designs Used To Generate Catalogs"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="AEM Screens Template Pages"
+        jcr:uuid="5289a319-85fb-4edc-a70a-5741d2ce39df"
+        sling:resourceType="commerce/components/templatepagefolder">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <catalog-page-template/>
+    <section-page-template/>
+    <product-page-template/>
+</jcr:root>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cssClass="aem-Layout aem-Layout--1x1"
+        cq:designPath="/etc/designs/brand-pathname-placeholder"
+        cq:lastModified="{Date}2015-12-25T18:00:00.000+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/screens/core/templates/sequencechannel"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Idle Channel"
+        sling:resourceSuperType="screens/core/components/channel"
+        sling:resourceType="screens/core/components/sequencechannel"
+        forceRemoteContent="true"
+        role="idle">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <par
+            cq:cssClass="aem-LayoutCell--1-1"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="screens/core/components/sequencechannel/sequence"
+            duration="3000">
+            <cover1
+                jcr:lastModified="{Date}2015-10-21T15:33:13.079+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="screens/core/components/content/image"
+                fileReference="/content/dam/brand-pathname-placeholder/cover-images/AdobeStock_95082119_WM.jpeg"/>
+            <cover2
+                jcr:lastModified="{Date}2015-10-21T15:33:15.904+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="screens/core/components/content/image"
+                fileReference="/content/dam/brand-pathname-placeholder/cover-images/AdobeStock_86798789_WM.jpeg"/>
+            <cover3
+                jcr:lastModified="{Date}2015-10-21T15:33:42.369+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="screens/core/components/content/image"
+                fileReference="/content/dam/brand-pathname-placeholder/cover-images/AdobeStock_82517151_WM.jpeg"/>
+            <cover4
+                jcr:lastModified="{Date}2015-10-21T15:33:45.432+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="screens/core/components/content/image"
+                fileReference="/content/dam/brand-pathname-placeholder/cover-images/AdobeStock_99393335_WM.jpeg"/>
+        </par>
+    </jcr:content>
+    <offline jcr:primaryType="nt:unstructured">
+        <config/>
+    </offline>
+</jcr:root>
