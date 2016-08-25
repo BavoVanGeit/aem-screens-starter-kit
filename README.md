@@ -62,6 +62,12 @@ A few things to try:
 - Change the applauncher under (/apps/brand-pathname-placeholder/components/applauncher/) to a new clientlibs application under (/apps/brand-pathname-placeholder/clientlibs)
 
 
+### Clear player cache on OSX
+You can delete these 2 folders to cleanup the caches on OS X:
+
+- firmware and channel chache: ~/Library/Application\ Support/com.adobe.cq.screens.player/files
+- webview cache: ~/Library/Caches/com.adobe.cq.screens.player/
+
 ### Using with VLT
 
 To use vlt with this project, first build and install the package to your local AEM instance as described above. Then `cd content/src/main/content/jcr_root/` and run:
