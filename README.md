@@ -68,6 +68,12 @@ You can delete these 2 folders to cleanup the caches on OS X:
 - firmware and channel chache: ~/Library/Application\ Support/com.adobe.cq.screens.player/files
 - webview cache: ~/Library/Caches/com.adobe.cq.screens.player/
 
+### Using video
+When using FFMPEG you might encounter some error in the log while creating the dedicated renditions. Therefore the video component might not play your video. To fix this:
+
+- Add `-strict -2` to `customArgs` property of `/etc/dam/video/iehq/jcr:content` and `/etc/dam/video/hq/jcr:content`.
+- Change `audioCodec` property of `/etc/dam/video/iehq/jcr:content` and `/etc/dam/video/hq/jcr:content` back to `libvo_aacenc` from `aac'
+
 ### Using with VLT
 
 To use vlt with this project, first build and install the package to your local AEM instance as described above. Then `cd content/src/main/content/jcr_root/` and run:
