@@ -58,21 +58,29 @@ A new screens folder with the brand name you specified above ('BrandName' in my 
 A few things to try:
 
 - Replace or upload new images to the brand dam folder (/content/dam/brand-pathname-placeholder/) and add them to one of the default channels - 'idle', 'idle-night'
-- Add some new products under (/etc/commerce/products/brand-pathname-placeholder/) and rollout the associated 'brand-name-placeholder' catalog. You can even add a new structure and product filters to the catalog. If you create a parallel structure to the 'seasonal' example, the application will render it as a new main scroll down content.
-- Change the applauncher under (/apps/brand-pathname-placeholder/components/applauncher/) to a new clientlibs application under (/apps/brand-pathname-placeholder/clientlibs)
+- Add some new products under `/etc/commerce/products/brand-pathname-placeholder/` and rollout the associated 'brand-name-placeholder' catalog. You can even add a new structure and product filters to the catalog. If you create a parallel structure to the 'seasonal' example, the application will render it as a new main scroll down content.
+- Change the applauncher under `/apps/brand-pathname-placeholder/components/applauncher/` to a new clientlibs application under `/apps/brand-pathname-placeholder/clientlibs`
 
 
 ### Clear player cache on OSX
 You can delete these 2 folders to cleanup the caches on OS X:
 
-- firmware and channel chache: ~/Library/Application\ Support/com.adobe.cq.screens.player/files
-- webview cache: ~/Library/Caches/com.adobe.cq.screens.player/
+- firmware and channel chache: `~/Library/Application\ Support/com.adobe.cq.screens.player/files`
+- webview cache: `~/Library/Caches/com.adobe.cq.screens.player/`
+
+### Debugging
+
+- AEM log: `/crx-quickstart/logs/error.log`
+- OSX player log: `~/Library/Application\ Support/com.adobe.cq.screens.player/files/logs/error.log`
+- Android log: Connect the device via USB > In Terminal type: adb logcat (require Android SDK)
+- iOS log: Connect the device via USB > Xcode > Windows > Devices > Your device > View Device Logs
+- ipa info `aem-screens-player-ios-2.1.x.ipa`
 
 ### Using video
 When using FFMPEG you might encounter some error in the log while creating the dedicated renditions. Therefore the video component might not play your video. To fix this:
 
 - Add `-strict -2` to `customArgs` property of `/etc/dam/video/iehq/jcr:content` and `/etc/dam/video/hq/jcr:content`.
-- Change `audioCodec` property of `/etc/dam/video/iehq/jcr:content` and `/etc/dam/video/hq/jcr:content` back to `libvo_aacenc` from `aac'
+- Change `audioCodec` property of `/etc/dam/video/iehq/jcr:content` and `/etc/dam/video/hq/jcr:content` back to `libvo_aacenc` from `aac`
 
 ### Using with VLT
 
