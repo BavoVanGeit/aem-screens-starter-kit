@@ -1,5 +1,5 @@
 .vlt
-
+.DS_Store
 jcr_root/.content.xml
 jcr_root/apps/.content.xml
 jcr_root/etc/.content.xml

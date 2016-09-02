@@ -45,8 +45,7 @@ From the project root, run:
 
 ### Setup
 
-After you register your device the AEM Screens Player will not be allowed to access content. You have to add the Contributors group to the newly created screens-brand-devices group under http://localhost:4502/useradmin
-Simply restart the AEM Screens Player and you should see your content displayed.
+After you register your device the AEM Screens Player will not be allowed to access content. You have to add the Contributors group to the newly created screens-brand-devices group under `http://localhost:4502/useradmin`. Simply restart the AEM Screens Player and you should see your content displayed.
 
 
 ### Edit in AEM
@@ -57,7 +56,7 @@ A new screens folder with the brand name you specified above ('BrandName' in my 
 
 A few things to try:
 
-- Replace or upload new images to the brand dam folder (/content/dam/brand-pathname-placeholder/) and add them to one of the default channels - 'idle', 'idle-night'
+- Replace or upload new images to the brand dam folder (/content/dam/brand-pathname-placeholder/) and add them to one of the default channels - `idle`, `idle-night`
 - Add some new products under `/etc/commerce/products/brand-pathname-placeholder/` and rollout the associated 'brand-name-placeholder' catalog. You can even add a new structure and product filters to the catalog. If you create a parallel structure to the 'seasonal' example, the application will render it as a new main scroll down content.
 - Change the applauncher under `/apps/brand-pathname-placeholder/components/applauncher/` to a new clientlibs application under `/apps/brand-pathname-placeholder/clientlibs`
 
@@ -74,7 +73,10 @@ You can delete these 2 folders to cleanup the caches on OS X:
 - OSX player log: `~/Library/Application\ Support/com.adobe.cq.screens.player/files/logs/error.log`
 - Android log: Connect the device via USB > In Terminal type: adb logcat (require Android SDK)
 - iOS log: Connect the device via USB > Xcode > Windows > Devices > Your device > View Device Logs
-- ipa info `aem-screens-player-ios-2.1.x.ipa`
+
+Check player status:
+
+    ipa info aem-screens-player-ios-2.1.x.ipa
 
 ### Using video
 When using FFMPEG you might encounter some error in the log while creating the dedicated renditions. Therefore the video component might not play your video. To fix this:
