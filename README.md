@@ -59,6 +59,7 @@ A few things to try:
 - Replace or upload new images to the brand dam folder (/content/dam/brand-pathname-placeholder/) and add them to one of the default channels - `idle`, `idle-night`
 - Add some new products under `/etc/commerce/products/brand-pathname-placeholder/` and rollout the associated 'brand-name-placeholder' catalog. You can even add a new structure and product filters to the catalog. If you create a parallel structure to the 'seasonal' example, the application will render it as a new main scroll down content.
 - Change the applauncher under `/apps/brand-pathname-placeholder/components/applauncher/` to a new clientlibs application under `/apps/brand-pathname-placeholder/clientlibs`
+- Add a new application channel, add the path to the application `/content/screens/brand-pathname-placeholder/apps/simpleapp` within the template component and start to modify the Hello World example `/apps/simplescreensapp/components/applauncher/`.
 
 
 ### Clear player cache on OSX
@@ -86,7 +87,7 @@ When using FFMPEG you might encounter some error in the log while creating the d
 
 ### Using with VLT
 
-To use vlt with this project, first build and install the package to your local AEM instance as described above. Then `cd content/src/main/content/jcr_root/` and run:
+To use vlt with this project, first build and install the package to your local AEM instance as described above. Then `cd content-core/src/main/content/jcr_root/` and run:
 
     vlt --credentials admin:admin checkout -f ../META-INF/vault/filter.xml --force http://localhost:4502/crx
 
@@ -106,6 +107,7 @@ Just testing the waters? No problem. From the [package manager console](http://l
 
 - create some more channel templates and applications
 - create new screens specific custom components
+- add a customize-app.bat to support Windows users
 
 ### Credits
 

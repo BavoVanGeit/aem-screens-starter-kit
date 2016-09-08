@@ -3,6 +3,7 @@
     jcr:primaryType="cq:Page">
     <touchtracker/>
     <virtual-showroom/>
+    <simpleapp/>
     <jcr:content
         cq:lastModified="{Date}2015-12-25T18:00:00.000+01:00"
         cq:lastModifiedBy="admin"
